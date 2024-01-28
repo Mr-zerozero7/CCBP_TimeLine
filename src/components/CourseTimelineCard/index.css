@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.course-item-container {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  border: solid 1px #bfbfbf;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+.card-top-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-heading {
+  color: #171f46;
+}
+.duration {
+  color: #171f46;
+  font-weight: 600;
+}
+.technologies-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.technology {
+  background-color: lightblue;
+  color: #2b237c;
+  margin: 10px;
+  padding: 5px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.react-icons {
+  vertical-align: middle;
+  margin-right: 5px;
+}

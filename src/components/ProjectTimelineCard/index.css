@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.project-item {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #bfbfbf;
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.project-image {
+  width: 400px;
+  height: 300px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.visit-link {
+  text-decoration: none;
+}
